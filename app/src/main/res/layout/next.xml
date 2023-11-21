@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Добро пожаловать!"
+        android:gravity="center"
+        android:textSize="30sp"/>
+    <Button
+        android:id="@+id/Sbros"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Сброс пароля и логина"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/NewLoginString"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Новый логин"/>
+    <Button
+        android:id="@+id/ButNewLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Утвердить новый логин"/>
+    <EditText
+        android:id="@+id/NewPasswordString"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Новый пароль"/>
+    <Button
+        android:id="@+id/ButNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Утвердить новый пароль"/>
+    <Button
+        android:id="@+id/ToMarket"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CoolMarket"/>
+</LinearLayout>
