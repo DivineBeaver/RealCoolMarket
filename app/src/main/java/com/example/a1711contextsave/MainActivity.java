@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 if(login.equals(LOGINTRUE)&&password.equals(PASSWORDTRUE)){
                     edit.putString(LOGINSTRING, login);
                     edit.putString(PASSWORDSTRING, password);
-                    edit.commit();
+                    edit.apply();
                     Intent intent = new Intent(MainActivity.this, Next.class);
                     startActivity(intent);
                 }else{
